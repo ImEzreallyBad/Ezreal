@@ -680,4 +680,4 @@ client.on('guildMemberRemove',(member) => {
     member.guild.channels.get('506520643001647124').send("**" + member.displayName + "**" + " has just left server.. Bye Bye. <:Cry:481937614988115981> ");
 });
 
-client.login(config.token)
+client.login(process.env.BOT_TOKEN)
